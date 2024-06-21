@@ -3,7 +3,7 @@
     "name": "todos-app",
     "slug": "todos-app",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -22,6 +22,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b948216b-4a0e-4f41-b739-142e3e77cb9f"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b948216b-4a0e-4f41-b739-142e3e77cb9f"
     }
   }
 }
